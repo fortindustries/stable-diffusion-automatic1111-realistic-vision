@@ -1,7 +1,7 @@
 FROM nvidia/cuda:11.7.1-runtime-ubuntu22.04
   
 # To use a different model, change the model URL below:
-ARG MODEL_URL='https://civitai.com/api/download/models/29460'
+ARG MODEL_URL='https://civitai.com/api/download/models/29460?safetensors=1'
 
 # If you are using a private Huggingface model (sign in required to download) insert your Huggingface
 # access token (https://huggingface.co/settings/tokens) below:
